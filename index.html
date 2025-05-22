@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="inputForm">
+  <input id="name" placeholder="Name">
+  <input id="email" placeholder="Email">
+  <input id="phone" placeholder="Phone">
+  <!-- other fields -->
+  <button onclick="generateResume()">Generate Resume</button>
+</div>
+
+<!-- Output-only resume section -->
+<div id="resumeOutput" style="display:none;">
+  <h1 id="outName"></h1>
+  <p id="outEmail"></p>
+  <p id="outPhone"></p>
+  <!-- other output fields -->
+</div>
+
+<!-- PDF Button -->
+<button onclick="downloadPDF()">Download as PDF</button>
+<script src="script.js"></script>
+</body>
