@@ -12,3 +12,4 @@ function downloadPDF() {
   const element = document.getElementById('resumeOutput');
   html2pdf().from(element).save();
 }
+//
